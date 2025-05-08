@@ -30,8 +30,8 @@ const Login = () => {
         <Button label="Login" path="/dashboard"/>
       </form>
       <p className="text-center mt-2">
-        Already have an account?
-        <span className="text-green cursor-pointer">Sign up</span>
+        Already have an account? 
+        <a href="/register" className="text-green cursor-pointer"> Sign up</a>
       </p>
     </section>
   );

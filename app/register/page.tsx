@@ -16,7 +16,7 @@ const Register = () => {
         <input type="password" name="confirm password" placeholder="Confirm password" autoComplete="true" className="bg-white p-4 md:py-2 w-full rounded-full mb-8 md:mb-2"/>
         <Button  label="Register" path="/dashboard"/>
       </form>
-      <p className="text-center mt-2">Already have an account? <span className="text-green cursor-pointer">Sign in</span></p>
+      <p className="text-center mt-2">Already have an account? <a href="/login" className="text-green cursor-pointer">Sign in</a></p>
     </section>
   );
 };
