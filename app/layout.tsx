@@ -29,10 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-300`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-color`}
       >
-        <main className="relative bg-color h-screen w-full md:w-96 mx-auto pt-12 md:pt-20 pb-14 md:pb-2 flex flex-col items-center justify-end">
-          <div className="absolute top-0 left-0 z-20 md:-top-14"> 
+        <main className="relative bg-color md:shadow-xl h-screen w-full md:w-96 mx-auto pt-12 md:pt-20 pb-10 md:pb-2 flex flex-col items-center justify-end">
+          <div className="absolute -top-4 left-0 z-20 md:-top-16"> 
             {/* w-full button-color pb-16 */}
             <Image
               src={circles}
